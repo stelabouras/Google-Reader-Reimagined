@@ -1,7 +1,9 @@
 Google Reader Reimagined
 ========================
 
+
 #### About ####
+
 
 'Google Reader Reimagined' is a simple webapp/tool I did in a weekend's time in order to help me deal with my endless list of feeds in Google Reader
 
