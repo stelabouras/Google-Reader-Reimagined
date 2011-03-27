@@ -2,7 +2,7 @@
 include("../inc/vars.inc");
 include("../inc/functions.inc");
 
-$action = $_REQUEST['action'];
+$action = $_POST['action'];
 
 if($action == "")
     die(json_encode(array("errorCode" => 1)));
@@ -48,8 +48,8 @@ switch($action) {
     
     case "request" :
 
-        $auth           = $_REQUEST['auth'];
-        $termArray      = ($_REQUEST['termArray'] != "" ? json_decode(stripslashes($_REQUEST['termArray'])) : array());
+        $auth           = $_POST['auth'];
+        $termArray      = ($_POST['termArray'] != "" ? json_decode(stripslashes($_POST['termArray'])) : array());
         
         if(count($termArray) > 0) {
             
