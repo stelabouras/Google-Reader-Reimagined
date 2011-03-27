@@ -254,7 +254,7 @@ var RequestData = {
 
 var App = {
 	
-	'ajaxUrl' : '/greader',
+	'ajaxUrl' : '/greader', //Change this to the folder name of the project, leave it black if it's in the root dir
 	
 	initialize : function() { 
 		
