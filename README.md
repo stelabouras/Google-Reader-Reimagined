@@ -9,4 +9,4 @@ It currently supports ClientLogin to the service (I will add oAuth in the next b
 
 It also has a 'mark as read' functionality (added today) in order to remove the articles you read.
 
-[Blog Post] http://stelabouras.com/post/4000086387/greaderreimagined
+[Blog Post](http://stelabouras.com/post/4000086387/greaderreimagined)
