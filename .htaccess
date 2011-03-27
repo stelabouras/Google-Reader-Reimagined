@@ -1,0 +1,10 @@
+Options +Indexes
+IndexIgnore *.inc
+Options All -Indexes
+
+<Files ~ "\.inc$">
+Order allow,deny
+Deny from all
+</Files>
+
+AddHandler php5-script .php
