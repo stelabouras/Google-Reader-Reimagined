@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 Descr   : Determines whether a sentence (term) has part of a favorite keyword (word or sentence)
 Args    : (string) the senterce to be checked

@@ -1,4 +1,4 @@
-<?
+<?php
 include("inc/vars.inc");
 include("inc/functions.inc");
 ?>

@@ -1,4 +1,4 @@
-<?
+<?php
 // Use logging if you want to log the cURL requests
 define(LOGGING,     false);
 // We <3 JSON
